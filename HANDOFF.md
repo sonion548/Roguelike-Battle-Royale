@@ -9,7 +9,7 @@ everything here was built from scratch on branch `claude/kind-albattani-gqqiuk`.
 | # | Piece | State |
 |---|-------|-------|
 | 1 | Blender installed in repo (`tools/blender/.venv`, bpy 4.5 LTS) + install script | done |
-| 2 | Shared core: rng, noise, world generation, movement controller | not started |
+| 2 | Shared core: rng, noise, world generation, movement controller (`shared/`) | done, `node test/world.test.mjs -v` |
 | 3 | Game data: characters, abilities, upgrade tiers, items, monsters, achievements | not started |
 | 4 | Server simulation (match loop, combat, ability engine, items, monsters, storm) | not started |
 | 5 | Bot AI | not started |
