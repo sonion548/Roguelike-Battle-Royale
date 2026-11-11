@@ -1,0 +1,22 @@
+{
+  "name": "roguelike-battle-royale",
+  "version": "1.0.0",
+  "description": "A roguelike battle royale: Fortnite-style last-team-standing with Risk of Rain 2 style characters, items, camps and ability upgrades.",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node tools/build-client.mjs",
+    "start": "node server/index.js",
+    "dev": "node tools/build-client.mjs --watch & node --watch server/index.js",
+    "test": "node test/run-all.mjs",
+    "models": "bash tools/blender/build_models.sh"
+  },
+  "dependencies": {
+    "esbuild": "^0.25.0",
+    "express": "^4.21.2",
+    "pg": "^8.13.1",
+    "three": "^0.170.0",
+    "ws": "^8.18.0"
+  }
+}

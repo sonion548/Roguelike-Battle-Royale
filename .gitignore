@@ -1,0 +1,10 @@
+node_modules/
+public/dist/
+tools/blender/.venv/
+tools/blender/__pycache__/
+tools/blender/**/__pycache__/
+data/
+*.log
+.env
+.DS_Store
+*.blend1
